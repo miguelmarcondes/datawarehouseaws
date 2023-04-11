@@ -13,20 +13,30 @@ Staging Tables:
 staging_events: reads from events logs data files.
 staging_songs: reads from songs data files.
 
+&nbsp;
+
 Dimension Tables:
-users: contains users in the music app.
-songs: contains songs in the database.
-artists: contains artists in the database.
-time: timestamp of records in songplays broken down into specific units.
+users: contains users in the music app. &nbsp;
+songs: contains songs in the database. &nbsp;
+artists: contains artists in the database. &nbsp;
+time: timestamp of records in songplays broken down into specific units. &nbsp;
+
+&nbsp;
 
 Fact Table:
 songplays: records in the log data associated with song plays.
 
+&nbsp;
+
 Config file:
 dwh.cfg: contains database and IAM role info.
 
+&nbsp;
+
 ETL Pipeline:
 transfers data from two local directories (data/song_data, data/log_data) into the tables using SQL and Python.
+
+&nbsp;
 
 run create_tables.py to create database and tables.
 
