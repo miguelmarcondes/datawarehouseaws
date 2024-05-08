@@ -1,11 +1,10 @@
 Developed by Miguel Marcondes
 
 Data modeling using Amazon Redshift. Staging tables are stored in S3, then transformed in Redshift to a data-ready format.
-staging tables are creating in Redshift to load data from data files.
 
 &nbsp;
 
-An ETL pipeline is built using Python which will transform data from staging tables to dimension and fact tables using "star" schema.
+An ETL pipeline is built using Python which will transform data from staging tables to dimension and fact tables using star schema.
 
 &nbsp;
 
